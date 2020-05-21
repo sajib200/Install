@@ -1,0 +1,7 @@
+echo "DOWNLOADING FILES FROM TDE SERVER"
+rm -rf /data/data/com.termux/files/home/TDE
+rm -rf /data/data/com.termux/files/home/TDE.sh
+git clone https://github.com/sajib200/PUBLIC-SHELL.git
+cp -r /data/data/com.termux/files/home/TDE/TDE.sh /data/data/com.termux/files/home
+chmod 777 /data/data/com.termux/files/home/TDE.sh
+echo "type su enter then type sh TDE.sh enter"
